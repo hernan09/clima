@@ -1,0 +1,50 @@
+.card-background-page {
+    background: #ECE9E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    
+    ion-card {
+
+      position: relative;
+      text-align: center;
+      margin-top: 8%;
+    }
+     #caja{
+       width: 80%;
+       margin: auto;  
+     }
+     #caja1{
+       width: 80%;
+       margin: auto;
+       height: auto;
+     }
+     #caja1>h2{
+         margin-top: -1%;
+         color: #488aff;
+     }
+    .card-title {
+      position: absolute;
+      top: 34%;
+      font-size: 2.0em;
+      width: 100%;
+      font-weight: bold;
+      color:white;
+    }
+  
+    .card-subtitle {
+      font-size: 1.3em;
+      position: absolute;
+      top: 52%;
+      width: 100%;
+      color:white;
+    }
+    .card-resto{
+        font-size: 1.3em;
+        position: absolute;
+        top: 68%;
+        width: 100%;
+        color:white;
+    }
+  
+  }
